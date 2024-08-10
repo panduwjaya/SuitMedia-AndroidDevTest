@@ -1,4 +1,4 @@
-package com.example.suitmediatest.Screen.Second
+package com.example.suitmediatest.ui.Second
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.suitmediatest.Screen.First.FirstActivity
-import com.example.suitmediatest.Screen.Third.ThirdActivity
+import com.example.suitmediatest.ui.First.FirstActivity
+import com.example.suitmediatest.ui.Third.ThirdActivity
 import com.example.suitmediatest.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {

@@ -13,13 +13,13 @@
         android:theme="@style/Theme.SuitMediaTest"
         tools:targetApi="31">
         <activity
-            android:name=".Screen.Third.ThirdActivity"
+            android:name=".ui.Third.ThirdActivity"
             android:exported="false" />
         <activity
-            android:name=".Screen.Second.SecondActivity"
+            android:name=".ui.Second.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".Screen.First.FirstActivity"
+            android:name=".ui.First.FirstActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

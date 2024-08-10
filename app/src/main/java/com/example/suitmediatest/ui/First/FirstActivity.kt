@@ -1,15 +1,11 @@
-package com.example.suitmediatest.Screen.First
+package com.example.suitmediatest.ui.First
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.example.suitmediatest.R
-import com.example.suitmediatest.Screen.Second.SecondActivity
+import com.example.suitmediatest.ui.Second.SecondActivity
 import com.example.suitmediatest.databinding.ActivityFirstBinding
 import com.google.android.material.textfield.TextInputEditText
 
