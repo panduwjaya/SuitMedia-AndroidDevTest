@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgFirstScreen"
+    tools:context=".Screen.First.FirstActivity">
+
+
+    <ImageView
+        android:id="@+id/icProfile"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="186dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/imgProfile" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="353dp"
+        android:hint="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPalindrome"
+        android:layout_width="310dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="415dp"
+        android:hint="Palindrome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="507dp"
+        android:backgroundTint="#2B637B"
+        android:text="CHECK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="563dp"
+        android:backgroundTint="#2B637B"
+        android:text="NEXT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
